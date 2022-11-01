@@ -10,8 +10,9 @@
     clear: both;
 }
 
-body{
+.wrapper{
     width: 1512px;
+    margin:0px auto;
 }
 
 .page_name{
@@ -304,7 +305,7 @@ body{
     content: url(../IMG/forWho_freelancers.png);
     display: block;
     float: left;
-    margin-right: 34px;
+    /* margin-right: 34px; */
 }
 
 .for_agency_text::before{
@@ -336,7 +337,8 @@ body{
     font-size: 27px;
     font-weight: 600;
     margin: 0;
-    margin: 14px 48px 0px 0px;;
+    margin: 14px 48px 0px 0px;
+    padding: 0px 0px 0px 157px;
 }
 
 .for_students_text p,
@@ -346,6 +348,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     margin: 8px 48px 14px 0px;
+    padding: 0px 0px 0px 157px;
 }
 
 .for_whom_button{
@@ -575,31 +578,36 @@ body{
 
 #email_input{
     margin: 28px 0px 14px 0px;
-    padding: 25px 0px 26px 24px;
-    border-color: 1px solid #000;
-    border-radius: 6px;
+    padding: 0px 0px 0px 24px;
+    border: 1px solid #000;
+    border-radius: 12px;
     width: 508px;
+    height: 70px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: rgba(58, 134, 255, 0.2);
 }
 
 #email_input:hover{
     box-shadow: 4px 4px 4px #0062FF;
+    border-color: #0062FF;
 }
 
 ::placeholder{
     font-size: 16px;
     font-weight: 400;
     color: #2203E4;
-    background-color: rgba(58, 134, 255, 0.2);
 }
 
 .bottom_text button{
     margin: 0px;
     padding: 10px 0px;
     width: 508px;
+    height: 39px;
     font-size: 16px;
     font-weight: 400;
     color: #fff;
     background-color: #0062FF;
+    border-color: #0062FF;
 }
 
 .bottom_text button:hover{
