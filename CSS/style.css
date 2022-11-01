@@ -2,7 +2,6 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    background-color: #fff;
 }
 
 .clearfix:after{
@@ -36,12 +35,13 @@ body{
     margin: 24.25px 12px 24.25px 32px;
     font-size: 21px;
     font-weight: 500;
+    background-color: #fff;
 }
 
 .header_button>button:hover{
-    border: 1px solid #fff;
     color: #fff;
     background-color: #2203E4;
+    box-shadow: 4px 4px 4px #2203E4;
 }
 
 .header_links>a{
@@ -132,10 +132,9 @@ body{
 }
 
 .authors_text h2{
-    margin:0px;
+    margin: 0px 0px 12px 0px;
     font-size: 36px;
     font-weight: 600;
-    margin: 12px;
 }
 
 .authors_text p{
@@ -215,6 +214,17 @@ body{
     text-align: left;
 }
 
+.chosen_person{
+    position: relative;
+}
+
+.chosen_person::before{
+    content: url(../IMG/arrow.png);
+    position:absolute;
+    left: -25px;
+    top:20px;
+}
+
 .chosen_person>h4{
     font-size: 21px;
     font-weight: 500;
@@ -237,4 +247,364 @@ body{
     margin: 0px;
     color: #DEA405;
     text-align: left;
+}
+
+.for_who_section{
+    background-color: #0062FF;
+    padding: 71px 123.5px;
+    text-align: center;
+}
+
+.for_who{
+    margin: 0px auto;
+    text-align: center;
+    width: 611px;
+    background-color: #0062FF;
+}
+
+.for_who h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062FF;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.for_who p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #0062FF;
+    margin: 0px 0 64px 0px;
+}
+
+.for_who_layer1{
+    background-color: #0062FF;
+    color: #fff;
+    margin-bottom: 64px;
+    text-align: left;
+}
+
+.for_who_layer2{
+    background-color: #0062FF;
+    color: #fff;
+    margin-bottom: 74px;
+    text-align: left;
+}
+
+.for_students_text::before{
+    content: url(../IMG/forWho_students.png);
+    display: block;
+    float: left;
+    margin-right: 34px;
+}
+
+.for_freelancers_text::before{
+    content: url(../IMG/forWho_freelancers.png);
+    display: block;
+    float: left;
+    margin-right: 34px;
+}
+
+.for_agency_text::before{
+    content: url(../IMG/forWho_agency.png);
+    display: block;
+    float: left;
+    margin-right: 34px;
+}
+
+.for_marketers_text::before{
+    display: block;
+    content: url(../IMG/forWho_marketers.png);
+    float: left;
+    margin-right: 34px;
+}
+
+.for_students_text,
+.for_freelancers_text,
+.for_agency_text,
+.for_marketers_text{
+    float: left;
+    width: 50%;
+}
+
+.for_students_text h3,
+.for_freelancers_text h3,
+.for_agency_text h3,
+.for_marketers_text h3{
+    font-size: 27px;
+    font-weight: 600;
+    margin: 0;
+    margin: 14px 48px 0px 0px;;
+}
+
+.for_students_text p,
+.for_freelancers_text p,
+.for_agency_text p,
+.for_marketers_text p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 8px 48px 14px 0px;
+}
+
+.for_whom_button{
+    padding: 10px 16px;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.for_whom_button:hover{
+    color: #fff;
+    background-color: #0062FF;
+    border-color: #0062FF;
+    box-shadow: 4px 4px 4px #2203E4;
+}
+
+.check_demo_section{
+    text-align: center;
+    padding: 63px 204px 130px 205px;
+    position:relative;
+}
+
+.check_demo_text h2{
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0px 246px 12px 246px;
+}
+
+.check_demo_text p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 246px 44px 246px;
+    color:#575757;
+}
+
+.check_demo_info_text{
+    float: left;
+    width: 601px;
+    margin: 11.5px 48px 11.5px 0px;
+}
+
+.check_demo_info_text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+    margin:12px 0px 24px 0px;
+    padding:0px;
+}
+
+.check_demo_info_text h4{
+    font-size: 21px;
+    font-weight: 500;
+    color: #000;
+    margin:0px;
+    padding:0px;
+}
+
+.video_section{
+    position:relative;
+}
+
+#video_sample{
+    float: right;
+}
+
+#play_icon{
+    position:absolute;
+    display: block;
+    right: 197px;
+    top: 119px
+}
+
+#play_icon:hover{
+    filter:brightness(50%);
+}
+
+.opinions_section{
+    background-color: #FFBE0B;
+    padding: 67px 0px 67px 0px;
+    text-align: center;
+}
+
+.opinion_section_text{
+    width: 611px;
+    margin: 0px auto}
+
+.opinion_section_text h2{
+    margin:0;
+    padding:0;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.opinion_section_text p{
+    margin:12px 0px 30px 0px;
+    padding:0;
+    font-size: 16px;
+    font-weight: 400;
+    color:#575757
+}
+
+.opinions_image_container{
+    overflow: hidden;
+    position: relative;
+    margin: 0px 120px 0px 120px;
+    filter: blur(5px);
+}
+
+.opinions_image_container:hover{
+    filter: none;
+}
+
+.opinions_image_container:before{
+    content: url(../IMG/Opinion.png);
+    position: absolute;
+    left: -480px;
+    opacity: 50%;
+}
+
+.opinions_image_container:after{
+    content: url(../IMG/Opinion.png);
+    position: absolute;
+    opacity: 50%;
+}
+
+.start_with_us{
+    padding: 89px 208px 103px 208px;
+    text-align: center;
+}
+
+.start_with_us_text{
+    margin: 0px 170px 74px 170px;
+}
+
+.start_with_us_text h2{
+    font-size: 36px;
+    font-weight: 600;
+    margin:0px;
+    padding:0px;
+}
+
+.start_with_us_text p{
+    font-size: 16px;
+    font-weight: 400;
+    margin:12px 0px 74px 0px;
+    padding:0px;
+    color:#575757;
+}
+
+.start_with_us_container{
+    padding:0px;
+    margin:0px 0px 74px 0px;
+    position: relative;
+    float:right
+}
+
+.start_with_us_stars{
+    padding:0px;
+    margin: 73.19px 0px 73.19px 340.05px;
+    text-align: left;
+}
+
+.start_with_us_stars::before{
+    content: url(../IMG/phone.png);
+    position: absolute;
+    left: -80px;
+}
+
+#views_count{
+    position:relative;
+    padding: 0px 0px 0px 175px;
+    margin: 3.5px 0px;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+#views_count:before{
+    content: url(../IMG/stars.png);
+    position: absolute;
+    left: 0px;
+    top:-5px;
+}
+
+.start_with_us_stars h2{
+    color: #2203E4;
+    font-size: 36px;
+    font-weight: 600;
+    padding: 16px 0px;
+}
+
+.start_with_us_stars p{
+    color: #575757;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 0px 16px 0px;
+}
+
+.start_with_us_stars button{
+    background-color: #0062FF;
+    font-size: 16px;
+    font-weight: 400;
+    color:#fff;
+    padding: 10px 16px;
+    margin:0px;
+}
+
+.start_with_us_stars button:hover{
+    background-color: #fff;
+    color:#0062FF;
+    box-shadow: 4px 4px 4px #0062FF;
+    border-color: #0062FF;
+    border-radius: 10px;}
+
+.bottom_text{
+    margin: 0px 221.52px 0px 221.52px;
+    padding: 0px;
+}
+
+.bottom_text h3{
+    font-size: 27px;
+    font-weight: 600;
+    padding: 0px;
+    margin: 0px;
+}
+
+#email_input{
+    margin: 28px 0px 14px 0px;
+    padding: 25px 0px 26px 24px;
+    border-color: 1px solid #000;
+    border-radius: 6px;
+    width: 508px;
+}
+
+#email_input:hover{
+    box-shadow: 4px 4px 4px #0062FF;
+}
+
+::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    color: #2203E4;
+    background-color: rgba(58, 134, 255, 0.2);
+}
+
+.bottom_text button{
+    margin: 0px;
+    padding: 10px 0px;
+    width: 508px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #0062FF;
+}
+
+.bottom_text button:hover{
+    background-color: #fff;
+    color:#0062FF;
+    box-shadow: 4px 4px 4px #0062FF;
+    border: 1px solid #0062FF;
 }
