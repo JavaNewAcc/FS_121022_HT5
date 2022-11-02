@@ -253,7 +253,6 @@
 .for_who_section{
     background-color: #0062FF;
     padding: 71px 123.5px;
-    text-align: center;
 }
 
 .for_who{
@@ -284,6 +283,7 @@
     background-color: #0062FF;
     color: #fff;
     margin-bottom: 64px;
+    margin-left: 123.5px;
     text-align: left;
 }
 
@@ -291,6 +291,7 @@
     background-color: #0062FF;
     color: #fff;
     margin-bottom: 74px;
+    margin-left: 123.5px;
     text-align: left;
 }
 
@@ -356,6 +357,8 @@
     background-color: #fff;
     font-size: 16px;
     font-weight: 400;
+    display: block;
+    margin:0px auto;
 }
 
 .for_whom_button:hover{
